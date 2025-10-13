@@ -24,7 +24,6 @@ class ListNode {
   ListNode([this.val = 0, this.next]);
   @override
   String toString() {
-    // TODO: implement toString
     return '$val${next != null ? ' -> $next' : ''}';
   }
 }
